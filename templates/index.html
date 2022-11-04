@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Baker Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="static/img/favicon.png" rel="icon">
+  <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Baker - v4.9.1
+  * Template URL: https://bootstrapmade.com/baker-free-onepage-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">GPT-1.3B</a></h1>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center justify-content-center">
+    <div class="container position-relative">
+      <h1>Try it.</h1>
+      <form action="#" method="post">
+        <div>
+          <input type="text" name="prompt" placeholder="Enter your thoughts" class="prompt">
+          <h6 style="color: white;"><label for="maxlen">max len</label></h6>
+          <input type="number" name="maxlen" id="maxlen" class="max_len" value="50">
+        </div>
+        <input type="submit" value="Generate" class="btn-get-started">
+        </form>
+      <textarea name="result" id="1" cols="30" rows="10">{{ response }}</textarea>
+    </div>
+  </section><!-- End Hero -->
+</body>
+
+</html>
